@@ -1,0 +1,29 @@
+.sidebar-wrapper {
+  .logo {
+    padding: 6px 8px 6px 16px;
+    font-size: 2rem;
+
+    img {
+      width: 100px;
+      margin: 10px 0;
+    }
+  }
+
+  .logo p {
+    color: white;
+  }
+
+  .sidebar-image {
+    background-image: url("http://placehold.jp/80x50.png");
+    background-size: cover;
+    position: relative;
+    border-radius: 0.2rem;
+    box-shadow: 0px 16px 40px #c6d1da29 padding-box;
+    padding: 6px 8px 6px 16px;
+    height: 8rem;
+    width: 216px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+  }
+}
