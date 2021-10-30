@@ -1,0 +1,87 @@
+@import "./../../colors.scss";
+
+.login-wrapper {
+  background-image: url("./../../assets/images/login-footer.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .login-box {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    box-shadow: 0px 20px 40px #00000014;
+    padding: 30px;
+    background-color: #fff;
+
+    .title {
+      font-weight: 600;
+      font-size: 25px;
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    .sub-title {
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #4e5983;
+    }
+
+    input {
+      width: 100%;
+      background-color: #f1f2f4;
+      border: 0;
+      padding: 10px 20px;
+      font-size: 13px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+    input::placeholder {
+      color: #0a1f44;
+      opacity: 0.2;
+    }
+
+    input:focus,
+    button:focus {
+      outline: $primary-color !important;
+    }
+
+    .text-forgot-password {
+      font-weight: 300;
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: #4e5983;
+    }
+
+    button {
+      width: 100%;
+      background-color: #8acb87;
+      border: 0;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #fff;
+      margin: 6px 0 20px 0;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 4px;
+    }
+
+    .text-not-registered {
+      font-size: 18px;
+      font-weight: 600;
+      color: #4e5983;
+      width: 100%;
+
+      span {
+        font-size: 13px;
+        font-weight: 400;
+        float: right;
+        position: relative;
+        top: 5px;
+        color: $primary-color;
+      }
+    }
+  }
+}
