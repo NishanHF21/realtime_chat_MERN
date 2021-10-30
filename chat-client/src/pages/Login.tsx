@@ -27,16 +27,16 @@ export default function Login() {
                     }}
                     placeholder="Enter your password"
                   />
-                  <Link to="forgot-password" className="text-forgot-password">
+                  {/* <Link to="forgot-password" className="text-forgot-password">
                     Forgot password?
-                  </Link>
+                  </Link> */}
 
-                  <AppButton
+                  {/* <AppButton
                     onClick={handleLogin}
                     isLoading={isLoading}
                   >
                     Login
-                  </AppButton>
+                  </AppButton> */}
 
                   <p className="text-not-registered">
                     Not yet registered?
